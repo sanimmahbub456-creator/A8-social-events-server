@@ -2,8 +2,8 @@
 
 Express + TypeScript + MongoDB REST API powering the Social Development Events Platform, a community-driven event management app for local social-service events (clothes distribution, blanket drives, plantation days, cleanups, and similar).
 
-- **Live API URL:** <!-- add your deployed Render/Railway URL here -->
-- **Client repo:** <!-- add your client GitHub repo link here -->
+- **Live API URL:** https://a8-social-events-server.onrender.com
+- **Client repo:** https://github.com/sanimmahbub456-creator/A8-social-events-client
 
 ## Features
 
@@ -47,4 +47,4 @@ See `.env.example`. You need a MongoDB connection string, a JWT secret (shared w
 
 ## Deployment
 
-Build with `npm run build`, start with `npm start`. Set the same environment variables on your host (Render/Railway/etc.) as in `.env.example`, and point `CLIENT_URL` at your deployed client domain.
+Build with `npm run build`, start with `npm start`. Set the same environment variables on your host (Render) as in `.env.example`, and point `CLIENT_URL` at your deployed client domain.
